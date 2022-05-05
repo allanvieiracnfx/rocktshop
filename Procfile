@@ -1,0 +1,1 @@
+web: concurrently --kill-others \"react-scripts start\" \"json-server server.json -p 3333\"
